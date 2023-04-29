@@ -1,0 +1,227 @@
+@font-face {
+    font-family: Nunitobold;
+    src: url("../assets/fonts/Nunitobold.woff");
+}
+
+@font-face {
+    font-family: Nunitoblack;
+    src: url("../assets/fonts/Nunitoblack.woff");
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    font-family: Nunitobold, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+
+/* Styles title start */
+
+.title {
+    position: absolute;
+    top: 27px;
+}
+
+.title h1 {
+    font-family: Nunitoblack, sans-serif;
+    font-size: 36px;
+    letter-spacing: -0.015em;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.title h1 span {
+    color: #D72F3F;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+
+/* Styles left*/
+
+.container-left{
+    display: flex;
+    position: relative;
+    justify-content: right;
+    width: 50%;
+    height: 100%;
+}
+
+.form__container {
+    margin: 194px 41px 191px 0;
+    position: relative;
+}
+
+.form__container__title {
+    font-size: 36px;
+    color: #000000;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.formValid {
+    width: 455px;
+    margin-right: 95px;
+}
+.form__container__message{
+    font-size: 22px;
+    line-height: 27px;
+    color: #636363;
+    height: 81px;
+    margin-bottom: 42px;
+    text-align: left;
+}
+
+.form__container__input{
+    font-size: 16px;
+    color: #C6C6C4;
+    text-align: left;
+}
+
+.form__input {
+    width: 452px;
+    height: 25px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 20px;
+    color: #323232;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #C6C6C4;
+}
+
+.filded {
+    animation: optic 3s linear infinite;
+    color: #DD3142;
+}
+
+@keyframes optic {
+    80% {
+        opacity: 50%;
+    }
+    90% {
+        opacity: 0;
+    }
+    95% {
+        opacity: 50%;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.checking {
+    margin-top: 35px;
+}
+
+.form__check__box {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.check-text {
+    font-size: 16px;
+    color: #636363;
+    cursor: pointer;
+}
+
+.btn {
+    width: 210px;
+    height: 70px;
+    border: none;
+    background: #DD3142;
+    border-radius: 40px;
+    padding: 21px 0 28px;
+    font-size: 20px;
+    color: #FFFFFF;
+    vertical-align: middle;
+    margin: 40px auto 44px 120px;
+    cursor: pointer;
+    transition: .3s
+}
+
+.btn:hover {
+    box-shadow: 0 0 5px 2px rgb(127 127 127);
+}
+.form__link {
+    font-size: 16px;
+    color: #636363;
+    margin-left: 130px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.form__link:hover {
+    color: #DD3142;
+}
+
+.btnOk:hover {
+    cursor: pointer;
+    box-shadow: 0 0 6px 1px rgb(255 255 255);
+}
+
+
+/* Styles right*/
+
+.container-right {
+    background: #F8F8FA;
+    width: 50%;
+    height: 100%;
+}
+
+
+.image__container {
+    position: absolute;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 254px 0 331px 11px;
+    max-width: 543px;
+    max-height: 600px;
+}
+
+.ellipse {
+    max-width: 290px;
+    max-height: 290px;
+}
+
+.rocket {
+    position: absolute;
+    top: 0 !important;
+    left: 91px !important;
+    z-index: 1;
+}
+
+.ellipse.up {
+    position: absolute!important;
+    top: 163px !important;
+    left: 226px !important;
+}
+
+.ellipse.left {
+    position: absolute!important;
+    left: 45px !important;
+    top: 203px !important;
+}
+
+.ellipse.down {
+    position: absolute!important;
+    top: 270px !important;
+    left: 211px !important;
+}
+
+.back {
+    position: absolute!important;
+    top: 71px !important;
+}
