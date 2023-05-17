@@ -181,3 +181,4 @@ window.onload = function () {
         }
     })
 }
+console.log('New message!');
