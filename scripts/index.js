@@ -181,4 +181,4 @@ window.onload = function () {
         }
     })
 }
-console.log('New message!');
+console.log('Hello!');
