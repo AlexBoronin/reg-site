@@ -159,7 +159,7 @@ body {
     color: #636363;
     margin-left: 130px;
     cursor: pointer;
-    transition: .2s;
+    transition: .3s;
 }
 
 .form__link:hover {
